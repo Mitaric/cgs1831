@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;  
+}
+body {
+  background-color: #a2b2c8;
+  font-family: sans-serif;
+}
+header {
+  display: block;
+  background-color: #384967;  
+  height: 100px;
+}
+h1 {
+  color: #49c5b1;
+  text-align: center;  
+  padding: 1em;
+}
+nav {
+  display: block;
+  background-color: #202A44;
+  text-align: center;
+  padding: 1em;
+  height: 100%;
+}
+nav a {
+  color: #49c5b1;
+  text-align: center;
+  text-decoration: none;
+  border-left: 2px solid #384967;
+  border-right: 2px solid #384967;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+nav a:link {
+  color: #49c5b1;
+}
+nav a:visited {
+  color: #49c5b1;
+}
+nav a:hover {
+  color: #49c5b1;
+  border: 2px solid #49c5b1;
+}
+nav ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  display: inline;
+}
+main {
+  display: block;
+  padding: 1em;
+  margin: 1em;
+}
+footer {
+  display: block;
+  background-color: #384967;
+  color: #49c5b1;
+  font-size: 0.6em;
+  text-align: center;
+  padding: 1em;
+}
+footer a {
+  display: block;
+  color: #49c5b1;
+  text-decoration: none;
+}
+
+/* #49C5B1 - Seafoam */
+/* #a2b2c8 - Light Blue */
+/* #384967 - Medium Blue */
+/* #202A44 - Dark Blue */

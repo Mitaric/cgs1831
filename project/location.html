@@ -8,42 +8,63 @@
     <title>Go Fish</title>
   </head>
   <body>
-    <header>
-      <h1>Go Fish</h1>
-    </header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="sustainability.html">Sustainability</a></li>
-        <li><a href="menu.html">Menu</a></li>
-        <li><a href="shop.html">Shop</a></li>
-        <li><a href="location.html">Location</a></li>
-      </ul>
-    </nav>
-    <main>
-      <p>
-        One morning, when Gregor Samsa woke from troubled dreams, he found
-        himself transformed in his bed into a horrible vermin. He lay on his
-        armour-like back, and if he lifted his head a little he could see his
-        brown belly, slightly domed and divided by arches into stiff sections.
-        The bedding was hardly able to cover it and seemed ready to slide off
-        any moment. His many legs, pitifully thin compared with the size of the
-        rest of him, waved about helplessly as he looked. "What's happened to
-        me?" he thought. It wasn't a dream. His room, a proper human room
-        although a little too small, lay peacefully between its four familiar
-        walls. A collection of textile samples lay spread out on the table -
-        Samsa was a travelling salesman - and above it there hung a picture that
-        he had recently cut out of an illustrated magazine and housed in a nice,
-        gilded frame. It showed a lady fitted out with a fur hat and fur boa who
-        sat upright, raising a heavy fur muff that covered the whole of her
-        lower arm towards the viewer. Gregor then turned to look out the window
-        at the dull weather.
-      </p>
-    </main>
-    <footer>
-      Copyright &copy; 2021 Go Fish<br />
-      <a href="mailto:gofish@gofish.com">Email Go Fish</a>
-    </footer>
+      <header>
+        <h1>Go Fish</h1>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="sustainability.html">Sustainability</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="location.html">Location</a></li>
+        </ul>
+      </nav>
+      <main>
+        <h2>Our Locations</h2>
+        <p>
+          North St. Petersburg<br />
+          55 Avenue G<br />
+          St. Petersburg, FL 33713<br /><br />
+          South St. Petersburg<br />
+          55 Avenue F<br />
+          St. Petersburg, FL 33705
+        </p>
+        <br />
+        <h2>Contact Us</h2>
+        <p>Required fields are marked with an asterisk*.</p>
+        <form method="POST" action="http://webdevbasics.net/scripts/demo.php">
+          <label for="myName">* Name:</label>
+          <input
+            type="text"
+            name="myName"
+            id="myName"
+            required="required"
+            placeholder="your first and last name"
+          />
+          <label for="myEmail">* E-mail:</label>
+          <input
+            type="email"
+            name="myEmail"
+            id="myEmail"
+            required="required"
+            placeholder="you@yourdomain.com"
+          />
+          <label for="myComments">* Comments:</label>
+          <textarea
+            name="myComments"
+            id="myComments"
+            rows="2"
+            cols="20"
+            required="required"
+          ></textarea>
+          <input id="mySubmit" type="submit" value="Submit" />
+        </form>
+      </main>
+      <footer>
+        Copyright &copy; 2021 Go Fish<br />
+        <a href="mailto:gofish@gofish.com">Email Go Fish</a>
+      </footer>
   </body>
 </html>
